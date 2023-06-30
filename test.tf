@@ -4,10 +4,9 @@ provider "aws" {
 }
 
 # S3 bucket name
-
 resource "aws_s3_bucket" "cogon" {
    bucket = "myawsbucket29june2023"
-   acl = "prviate"
+   acl = "private
 
 tag = {
    name = "my bucket"
