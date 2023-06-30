@@ -8,11 +8,8 @@ provider "aws" {
 resource "aws_s3_bucket" "cogon" {
    bucket = "myawsbucket29june2023"
    acl = "prviate"
-
+}
 tag = {
    name = "my bucket"
    environment = "devjkt"
-
-}
-
 }
