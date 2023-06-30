@@ -10,6 +10,6 @@ resource "aws_s3_bucket" "text" {
 }
 #tag name - bucket
 tags {
-   name = "cogon"
+   name = "myawsbucket29june2023"
    environment = "devjkt"
 }
